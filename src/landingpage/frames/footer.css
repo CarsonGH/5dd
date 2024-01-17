@@ -1,0 +1,35 @@
+.footer{
+    width:100%;
+    display: block;
+
+}
+
+.footer footer{
+    padding:20px;
+    border-radius: 20px 20px 0 0 ;
+    background: black;
+    height:80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .logo{
+    color:white;
+    font-weight: 800;
+    font-size:32px;
+}
+.footer .logo img{
+    height:32px;
+}
+
+.footer .up{
+    transition:200ms;
+    padding:10px;
+    border-radius:10px;
+}
+.footer .up:hover{
+
+    background-color: rgb(133, 133, 133);
+}

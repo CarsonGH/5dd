@@ -1,0 +1,58 @@
+.info2 .text1{
+
+    font-size:60px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.info2 .text2{
+    font-size:24px;
+}
+
+
+.info2{
+    padding:60px 120px;
+    gap:60px;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    display: flex;
+    color:black;
+
+}
+
+.info2 .title{
+    display: flex;
+    align-items: center;
+}
+.info2 .textReact{
+    color:#149eca;
+}
+
+
+.info2 .title img{
+    height:60px;
+}
+.info2 .row{
+    gap:80px;
+    display: flex;
+    justify-content: space-around;
+}
+.info2 .left,.info2 .right{
+    gap:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    padding:40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px 1px rgb(225, 225, 205);
+    border-radius:60px;
+}
+.info2 .right img{
+    max-height:400px;
+}
+

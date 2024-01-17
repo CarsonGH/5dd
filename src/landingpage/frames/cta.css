@@ -1,0 +1,23 @@
+.cta{
+    width:100%;
+    min-height:100vh;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:40px;
+}
+.cta .text1{
+    font-size: 140px;
+}
+.cta button{
+    padding:30px;
+    font-size:30px;
+    background-color:rgb(179, 179, 38);
+    transition: 300ms;
+    font-weight: 800;
+}
+.cta button:hover{
+    background-color: white;
+}
