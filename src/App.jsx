@@ -14,6 +14,7 @@ import Docs from './docs/Docs'
 import Databases from './service/databases/Databases'
 import Billing from './service/billing/Billing'
 import Pricing from './landingpage/frames/Pricing'
+import Account from './service/account/Account'
 
 
 function LandingPage(){
@@ -37,11 +38,11 @@ function App() {
       <Routes>
         <Route path="*" element={<LandingPage/>}/>
         <Route element={<Template/>}>
-            <Route path="/app" element={<></>}/>
+            <Route path="/app" element={<Databases/>}/>
             <Route path="/app/new-database/" element={<NewDatabase/>}/>
             <Route path="/app/databases/" element={<Databases/>}/>
             <Route path="/app/billing/" element={<Billing/>}/>
-
+            <Route path="/app/account/" element={<Account/>}/>
         </Route>
         <Route path="/docs" element={<Docs/>}/>
       </Routes>

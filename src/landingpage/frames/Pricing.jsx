@@ -16,7 +16,7 @@ const Pricing = () => {
                 <div>Basic Support (setup only)</div>
                 <div>Unlimited Users</div>
                 <div>5 Different Projects</div>
-                <div>100% self data ownership</div>
+                <div>100% Self Data Ownership</div>
             </div>
             <div className='panel'>
                 <div className='title'>AWS BYOC Self-hosted</div>

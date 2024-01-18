@@ -20,9 +20,6 @@ const Template = ({children}) => {
 
             </nav>
             </div>
-            <div className='bottom'>
-                    <p>Try Our New Baking Soda!</p>
-            </div>
         </div>
         </div>
         <main>

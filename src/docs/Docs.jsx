@@ -5,8 +5,8 @@ const Docs = () => {
   return (
     <div className='docs'>
         <div className='topbar'>
-            <span className='logo'><img/> 5DD Auth</span>
-            <span className='search-bar'><input/><img src="serach.svg"/></span>
+            <span className='logo'><img/><img src="/home/boxstar.svg"/> 5DD Auth</span>
+            <span className='search-bar'><input/><button>Search</button></span>
             <span className='right-group'>
                 <Link>Docs</Link>
                 <Link to="/app">App</Link>
@@ -28,6 +28,12 @@ const Docs = () => {
                 <div className='section'>
                     <span className='title'>React Library</span>
                     <span>link</span>
+                    <span>link</span>
+                    <span>link</span>
+                </div>
+                <div className='section'>
+                    <span className='title'>Integrating Into Other Service</span>
+                    <span>Token Structure</span>
                     <span>link</span>
                     <span>link</span>
                 </div>

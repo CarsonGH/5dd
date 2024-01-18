@@ -1,5 +1,6 @@
 import React from 'react'
 import "./databases.css"
+import { Link } from 'react-router-dom'
 const Databases = () => {
   return (
     <div className='databases'>
@@ -40,6 +41,7 @@ const Databases = () => {
                 <button>Download Public Key</button>
                 <button>View More</button>
             </div>
+            <Link to="/app/new-database"><button>Create New Database</button></Link>
 
         </div>
     </div>

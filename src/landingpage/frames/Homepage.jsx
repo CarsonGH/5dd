@@ -20,7 +20,7 @@ const Homepage = () => {
             <Link to="/create-account">Quick Start</Link>
 
             </span>
-        <button>Login</button>
+        <Link to="/app"><button>Login</button></Link>
         </nav>
         <main>
           <div className='text1 cover'>
