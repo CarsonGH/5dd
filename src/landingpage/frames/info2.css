@@ -36,12 +36,14 @@
     height:60px;
 }
 .info2 .row{
+    flex-wrap:wrap;
     gap:80px;
     display: flex;
     justify-content: space-around;
+    .left{max-width:500px;}
 }
 .info2 .left,.info2 .right{
-    gap:30px;
+    max-width:600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,3 +58,19 @@
     max-height:400px;
 }
 
+
+@media(max-width:800px){
+    .info{
+        padding:20px 10px;
+        border-radius: 60px;
+    }
+    .info .text2{
+        text-align: center;
+    }
+    .info2 .right img{
+        max-width:100%;
+    }
+    .info2 .row .right,.info2 .row .left{
+        max-width: 100vw;
+    }
+}

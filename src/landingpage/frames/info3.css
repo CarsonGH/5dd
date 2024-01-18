@@ -27,3 +27,9 @@
     border-radius:40px;
     max-width:900px;
 }
+
+@media(max-width:800px){
+    .info3 img{
+        max-width:100%;
+    }
+}

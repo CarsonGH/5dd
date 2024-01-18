@@ -1,0 +1,44 @@
+.databases{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    width:100%;
+    gap:30px;
+    .text1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .linebreak{
+        height:2px;
+        background-color: lightgrey;
+        width: 100%;
+    }
+    .database-list{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap:50px;
+        .database{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap:20px;
+            width:300px;
+            min-height:300px;
+            padding:20px;
+            border-radius: 20px;
+            box-shadow:0 0 8px 1px lightgrey;
+            transition: 200ms;
+            .title{
+                font-size:20px;
+                font-weight:600;
+            }
+        }
+        .database:hover{
+            box-shadow:0 0 8px 1px rgb(177, 162, 30);
+            transform: scale(1.02);
+        }
+    }
+}

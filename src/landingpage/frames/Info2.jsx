@@ -13,7 +13,7 @@ const Info2 = () => {
             </div>
             <div className='right'>
                 <img src="/components/comps.png"/>
-                <div className='text2'><span className='textYellow'>Optional</span> Customaizable UI Components</div>
+                <div className='text2'><span className='textYellow'>Optional</span> Customizable UI Components</div>
                 <div className='textCenter'>Premade react componets for all authentication features, login, register, change password, forgot password, verify account, reset password, email login and more!</div>
             </div>
         </div>

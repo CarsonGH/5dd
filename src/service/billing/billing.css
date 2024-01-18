@@ -1,0 +1,35 @@
+.billing{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding:0 30px;
+    height:100%;
+    width:100%;
+    .text1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text2{
+        font-size:24px;
+        font-weight:600;
+    }
+    .invoices{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        .invoice{
+            div,a{
+                width:100%;
+                text-align: center;
+            }
+            padding:10px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap:200px;
+            border-top:2px solid grey;
+            border-bottom:2px solid grey;
+
+        }
+    }
+}

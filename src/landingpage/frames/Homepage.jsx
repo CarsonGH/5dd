@@ -1,5 +1,6 @@
 import React from 'react'
 import "./homepage.css"
+import { Link } from 'react-router-dom'
 
 const Homepage = () => {
   const auth={}
@@ -13,10 +14,10 @@ const Homepage = () => {
             <h1>5DD Auth</h1>
           </span>
             <span className='links'>
-            <a to="/pricing">Pricing</a>
-            <a to="/register">Documenation</a>
-            <a to="/support">Support</a>
-            <a to="/register">Quick Start</a>
+            <a href="#pricing">Pricing</a>
+            <Link to="/docs">Documenation</Link>
+            <a href="mailto:support@5ddauth.com">Support</a>
+            <Link to="/create-account">Quick Start</Link>
 
             </span>
         <button>Login</button>
@@ -25,7 +26,7 @@ const Homepage = () => {
           <div className='text1 cover'>
             <div><span><span className="df">Authentication <img src="/home/triplestar.svg"/></span></span></div>
             <div><span><span className="df">owned <img src="/home/padlock.svg"/>by <span className="textYellow">you</span></span></span></div>
-            <div><span className="df">pay <img src="/home/dollar.svg"/> <span className="textYellow">once</span>, setup in <img src="/home/clock.svg"/> <span className="textYellow">minutes</span></span></div>
+            <div><span className="df">pay <img src="/home/dollar.svg"/> <span className="textYellow">once</span> setup in <img src="/home/clock.svg"/> <span className="textYellow">minutes</span></span></div>
             <div><span className="df"></span></div>
           </div>
         </main>

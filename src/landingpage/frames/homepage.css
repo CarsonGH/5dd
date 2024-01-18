@@ -137,8 +137,37 @@
 
 
 @media (max-width: 768px) {
+    .home{
+        min-height:60vh;
+        padding-top: 0;
+        justify-content: start;
+        gap:160px;
+        .df{
+            justify-content: center;
+        }
+    }
+    .home nav{
+        border-radius:0;
+        max-width: unset;
+        padding:10px;
+        button{
+            height:40px;
+            border-radius: 10px;
+            width:fit-content;
+        }
+    }
     .home nav .links{
         display: none;
+    }
+    .home main .cover{
+            padding:0;
+    }
+    .home .text1{
+        font-size:35px;
+
+        img{
+            height:35px;
+        }
     }
   }
   

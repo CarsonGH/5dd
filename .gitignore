@@ -30,6 +30,8 @@ dist-ssr
 
 # Production build files
 /build
+/dist
+
 
 # Environment variables
 .env

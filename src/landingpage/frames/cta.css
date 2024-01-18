@@ -1,6 +1,6 @@
 .cta{
     width:100%;
-    min-height:100vh;
+    min-height:60vh;
     color:black;
     display: flex;
     align-items: center;
@@ -9,7 +9,8 @@
     gap:40px;
 }
 .cta .text1{
-    font-size: 140px;
+    text-align: center;
+    font-size: 80px;
 }
 .cta button{
     padding:30px;

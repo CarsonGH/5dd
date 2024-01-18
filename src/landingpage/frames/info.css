@@ -26,9 +26,11 @@
 
 
 .info{
+    width:100%;
     padding:80px;
     display: flex;
     flex-direction: column;
+    flex-wrap:wrap;
     color:black;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px 1px rgb(225, 225, 205);
@@ -42,7 +44,10 @@
     padding:20px;
     justify-content: space-between;
     align-items: center;
-    gap:200px;
+    flex-wrap:wrap;
+}
+.info .row .left{
+    max-width:460px;
 }
 .info .list{
     display: flex;
@@ -52,4 +57,10 @@
 .info .right img{
     border-radius:40px;
     max-width:600px;
+}
+
+@media(max-width:800px){
+    .info .right img{
+        max-width:100%;
+    }
 }
