@@ -32,7 +32,7 @@ const Pricing = () => {
             </div>
             <div className='panel'>
                 <div className='title'>5DD Hosted Auth</div>
-                <div className='subtext'>Don't want to deal with any AWS Account? Let us Host it for you for a monthly fee</div>
+                <div className='subtext'>Don't want to deal with any AWS Account? Let us host it for you for a monthly fee</div>
                 <div className='price'>$5<span className='description'>/month (1 authentication server)</span></div>
                 <div className='buy'><button>Buy plan</button></div>
                 <div>Advanced Support (24/7 phone and email)</div>
